@@ -5,6 +5,7 @@ do
         spath = spath..dir
         package.path = spath.."?.lua;"..spath.."?/init.lua;"..package.path
     end
+    addRelPath("src/cls")
     addRelPath("src/helpers")
     addRelPath("src/tests")
 end
